@@ -1,0 +1,16 @@
+{
+  "item": [
+    {
+      "item_name": "Laptop",
+      "company": "Hp",
+      "price": "49599",
+      "id": 2
+    },
+    {
+      "item_name": "Smart watch",
+      "company": "Boat",
+      "price": "3549",
+      "id": 3
+    }
+  ]
+}

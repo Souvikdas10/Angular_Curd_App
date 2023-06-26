@@ -1,0 +1,23 @@
+<!-- <p>add-item works!</p> -->
+<div class="container">
+    <h1>Add Item</h1>
+    <form [formGroup]="formValue" (ngSubmit)="submitData()">
+        <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Item Name</label>
+            <input type="text" class="form-control" formControlName="item" id="exampleInputEmail1"
+                aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Company</label>
+            <input type="text" class="form-control" formControlName="company" id="exampleInputEmail1"
+                aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Price</label>
+            <input type="text" class="form-control" formControlName="price" id="exampleInputEmail1"
+                aria-describedby="emailHelp" required>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
